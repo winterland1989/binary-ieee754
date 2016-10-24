@@ -2,7 +2,7 @@
 {-# LANGUAGE CPP #-}
 {-# LANGUAGE Trustworthy #-}
 
--- | This module backport ieee754 double/float combinators from binary 0.8.4 to older
+-- | This module backports ieee754 double/float combinators from binary 0.8.4 to older
 -- version, and simply re-export these combinators for binary >= 0.8.4. You can safely
 -- import this module alongside "Data.Binary.Get" and "Data.Binary.Put".
 --
